@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+
+* {
+  font-family: "Bubblegum Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #FFF6F8;
+  color: #55273E;
+}
+
+#title, #tribute-info {
+  background-color: #ffaed7;
+}
+
+img {
+  display: block;
+}
+
+#img {
+  margin: 20px auto;
+
+}
+
+#image {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+h2, figcaption, li {
+  font-family: "Bubbler One", sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 23px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  margin-top: 5px;
+}
+
+li {
+  font-size: 18px;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+#tribute-info {
+  padding: 20px 0;
+}
+
+#tribute-info p {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+#tribute-link {
+  color: #FFF6F8;
+}
